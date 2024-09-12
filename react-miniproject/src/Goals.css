@@ -1,0 +1,76 @@
+/* background blender image */
+/* background blender image */
+#goalsBackground {
+    z-index: -10;
+    height: 28vw;
+    background-image: url('https://www.speexx.com/wp-content/uploads/goal-setting-basics.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /* black tint to background */
+    background-color: rgba(59, 54, 48, 0.5);
+    background-blend-mode: multiply;
+  }
+/* big name at the top */
+#titleName {
+  position: absolute;
+  font-size: 6vw;
+  margin: 0;
+  padding: 0;
+  top: 40%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  /* keep font consistent */
+  font-family: 'Cinzel', sans-serif;
+  white-space: nowrap;
+}
+
+/* short desc below titleName */
+#titleWords {
+  position: absolute;
+  font-size: 3.5vw;
+  margin: 0;
+  padding: 0;
+  top: 70%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: 'Cinzel', serif;
+  white-space: nowrap;
+}
+
+#goalBox {
+  background-image: url('https://media.licdn.com/dms/image/v2/D5603AQGeO3YQqKB3qQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673597707200?e=2147483647&v=beta&t=sh_InJkdqhLw0R5cpjcE-mJugMDxI4nWD_aNbB1mEZ0');
+  background-size: cover;
+  width: 30vw;
+  height: 30vw;
+  display: block;
+  margin-left: 4vw;
+  margin-top: 3vw;
+}
+
+#goalTextBox {
+  margin-top: 1vw;
+  margin-left: 4vw;
+  margin-bottom: 4vw;
+  width: 30vw;
+  height: 5vw;
+  background: rgb(207, 171, 130);
+  transition: height 2s;
+  overflow: hidden;
+}
+
+#goalTextBox:hover {
+  height: 30vw;
+}
+
+#goalText {
+  font-size: 3vw;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}

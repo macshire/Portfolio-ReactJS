@@ -1,0 +1,81 @@
+/* about title background */
+#aboutBackground {
+    z-index: -10;
+    height: 28vw;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/singapore-marina-bay-sands-downtown-cityscape-city-lights-2560x1080-1312.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /* black tint to background */
+    background-color: rgba(59, 54, 48, 0.5);
+    background-blend-mode: multiply;
+  }
+  
+  /* about big image */
+  #aboutImage {
+    padding-left: 4vw;
+    height: 28vw;
+    width: 40vw;
+  }
+  
+  /* about top title */
+  .aboutTitle {
+    padding-left: 4vw;
+    font-size: 3vw;
+    position: relative;
+    left: 100%;
+    transition: left 0s;
+  }
+
+  .aboutTitle-for-animation {
+    left: 0;
+    transition: left 0.4s;
+  }
+  
+  /* about mid desciption */
+  #aboutDesciption {
+    padding-left: 3vw;
+    font-size: 2vw;
+    line-height: 4vw;
+  }
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.first-item {
+    flex: 1;
+    position: relative;
+    left: 100%;
+    transition: left 0s;
+}
+
+.first-item-for-animation {
+  left: 0;
+  transition: left 0.4s;
+}
+
+.first-item:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.second-item {
+    flex: 1.5;
+    position: relative;
+    left: 100%;
+    transition: left 0s;
+}
+
+.second-item-for-animation {
+    left: 0;
+    transition: left 0.4s;
+}
+
+.nextButton {
+    transform: translate(68vw, 0);
+    height: 4vw;
+    width: 8vw;
+    font-size: 2vw;
+}
