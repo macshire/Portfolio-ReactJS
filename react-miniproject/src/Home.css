@@ -193,3 +193,13 @@ a:is(:link, :active, :visited){
 body {
   background-color: rgb(253, 233, 217);
 }
+
+/* profile picture image top left */
+#avatarLeft {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELz1YazfugZdxzltruoSStAGChatrUSZnGw&s');
+  transform: translateX(1vw);
+  background-size: cover;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+}

@@ -7,10 +7,13 @@ const Layout = () => {
         <>
           <nav>
               <li className='navHeight'>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/goals">Goals</Link>
-                <input className='inputBar'></input>
+                <div className='flex-container'>
+                  <div id='avatarLeft'/>
+                  <Link to="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/goals">Goals</Link>
+                  <input className='inputBar'></input>
+                </div>
               </li>
           </nav>
         <Outlet />
