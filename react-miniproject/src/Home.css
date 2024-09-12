@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .App {
   text-align: center;
 }
@@ -66,7 +67,7 @@
 /* big name at the top */
 #titleName {
   position: absolute;
-  font-size: 6vw;
+  font-size: 8vw;
   margin: 0;
   padding: 0;
   top: 40%;
@@ -74,21 +75,21 @@
   color: white;
   transform: translate(-50%, -50%);
   /* keep font consistent */
-  font-family: 'Cinzel', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   white-space: nowrap;
 }
 
 /* short desc below titleName */
 #titleWords {
   position: absolute;
-  font-size: 3.5vw;
+  font-size: 4vw;
   margin: 0;
   padding: 0;
   top: 70%;
   left: 50%;
   color: white;
   transform: translate(-50%, -50%);
-  font-family: 'Cinzel', serif;
+  font-family: "Bebas Neue", sans-serif;
   white-space: nowrap;
 }
 
@@ -116,12 +117,14 @@ li a:is(:link, :active, :visited) {
   float: left;
   color: rgb(240, 232, 224);
   text-align: center;
-  padding: 1vw 1vw;
+  padding: 1vw 1.5vw;
   /* remove underlines */
   text-decoration: none;
   font-size: 2vw;
   background-color: rgba(59, 54, 48, 0.199);
   background-blend-mode: multiply;
+  transform: translateX(-0.5vw);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 /* changes color of box if hovering */
@@ -197,9 +200,15 @@ body {
 /* profile picture image top left */
 #avatarLeft {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELz1YazfugZdxzltruoSStAGChatrUSZnGw&s');
-  transform: translateX(1vw);
+  transform: translateX(0.5vw);
   background-size: cover;
   width: 4vw;
   height: 4vw;
   border-radius: 50%;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
