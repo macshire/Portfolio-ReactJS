@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { imageList } from "../data";
-import "../About.css";
+import "../Projects.css";
 
-  const About = () => { 
+  const Projects = () => { 
     const [index, setIndex] = useState(0);
     const [activeAnimation, setActiveAnimation] = useState(false);
 
@@ -14,13 +14,6 @@ import "../About.css";
         return;
       }
       setIndex(index + 1);
-      // let desc = document.getElementsByClassName("second-item");
-      // if(desc == null){
-      //   console.log("NO REFERENCE");
-      // }
-      // if(desc != null){
-        // console.log(desc[]);
-      // }
     }, [index]);
 
     useEffect(() => {
@@ -34,7 +27,7 @@ import "../About.css";
       <>
         <div id="aboutBackground">
             <div id="titleName">
-              <p>About Me</p>
+              <p>Projects</p>
             </div>
             <div id="titleWords">
               <p>Who I am, What I do</p>
@@ -61,4 +54,4 @@ import "../About.css";
     );
   }
   
-  export default About;
+  export default Projects;

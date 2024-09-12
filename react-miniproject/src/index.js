@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Layout';
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Goals from './pages/Goals';
+import Projects from './pages/Projects';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -27,7 +27,7 @@ export default function Application(){
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/about" element={<About />}/>
+            <Route path="/projects" element={<Projects />}/>
             <Route path='/goals' element={<Goals />}/>
           </Route>
         </Routes>

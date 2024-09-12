@@ -1,5 +1,5 @@
 import './Home.css';
-import './About.css';
+import './Projects.css';
 import { Outlet, Link} from "react-router-dom";
 
 const Layout = () => {
@@ -10,9 +10,8 @@ const Layout = () => {
                 <div className='flex-container'>
                   <div id='avatarLeft'/>
                   <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
+                  <Link to="/projects">Projects</Link>
                   <Link to="/goals">Goals</Link>
-                  <input className='inputBar'></input>
                 </div>
               </li>
           </nav>

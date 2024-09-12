@@ -1,6 +1,7 @@
 import '../activePage.js';
 import '../index.js';
 import '../Layout.js';
+import '../Home.css';
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             <p>Maximilian Macshire Lionel</p>
           </div>
           <div id="titleWords">
-            <p>An Introduction</p>
+            <p>welcome to my website :)</p>
           </div>
         </div>
           <div className='flex-container'>
