@@ -3,6 +3,8 @@ import '../index.js';
 import '../Layout.js';
 import '../Home.css';
 
+import homeStyle from '../Home.css';
+
 const Home = () => {
     return (
       <>
@@ -21,7 +23,7 @@ const Home = () => {
         </div>
           <div className='flex-container'>
             <div id="avatar"></div>
-            <div id="desciption">
+            <div id="desciption" className={homeStyle.red}>
               Hello, I'm Maximilian but I usually go by Max. <br /><br />
               I was born in Singapore and I am half Eurasian, <br /><br />
               half Indian. Nice to meet you!
