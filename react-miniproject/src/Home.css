@@ -60,19 +60,19 @@
   background-position: center center;
   position: relative;
   /* black tint to background */
-  background-color: rgba(59, 54, 48, 0.5);
+  background-color: rgba(59, 54, 48, 0.747);
   background-blend-mode: multiply;
 }
 
 /* big name at the top */
 #titleName {
   position: absolute;
-  font-size: 8vw;
+  font-size: 5vw;
   margin: 0;
   padding: 0;
   top: 40%;
   left: 50%;
-  color: white;
+  color: rgb(132, 250, 222);
   transform: translate(-50%, -50%);
   /* keep font consistent */
   font-family: 'Bebas Neue', sans-serif;
@@ -82,12 +82,12 @@
 /* short desc below titleName */
 #titleWords {
   position: absolute;
-  font-size: 4vw;
+  font-size: 3vw;
   margin: 0;
   padding: 0;
-  top: 70%;
+  top: 65%;
   left: 50%;
-  color: white;
+  color: rgb(255, 255, 255);
   transform: translate(-50%, -50%);
   font-family: "Bebas Neue", sans-serif;
   white-space: nowrap;
@@ -99,7 +99,7 @@
   font-size: 2vw;
   margin-left: 48vw;
   margin-top: 0vw;
-  color: black;
+  color: rgb(216, 216, 216);
   font-family: 'Cinzel', serif;
   white-space: nowrap;
 }
@@ -115,7 +115,7 @@
 li a:is(:link, :active, :visited) {
   /* have the image float toward the left */
   float: left;
-  color: rgb(240, 232, 224);
+  color: rgb(159, 128, 196);
   text-align: center;
   padding: 1vw 2vw;
   /* remove underlines */
@@ -129,8 +129,8 @@ li a:is(:link, :active, :visited) {
 
 /* changes color of box if hovering */
 li a:hover{
-  background-color: #85818160;
-  color: black;
+  background-color: #2b2b2b91;
+  color: rgb(244, 224, 247);
 }
 
 /* changes color of box if active */
@@ -171,7 +171,7 @@ a:is(:link, :active, :visited){
   font-size: 2vw;
   margin-left: 3vw;
   margin-top: 0vw;
-  color: black;
+  color: rgb(216, 216, 216);
   font-family: 'Cinzel', serif;
   white-space: nowrap;
 }
@@ -194,7 +194,7 @@ a:is(:link, :active, :visited){
 }
 
 body {
-  background-color: rgb(253, 233, 217);
+  background-color: rgb(65, 65, 65);
 }
 
 /* profile picture image top left */
@@ -215,4 +215,13 @@ body {
 
 .red {
   color: red;
+}
+
+#linkedinLogo {
+  background-image: url('/home/maximilian/Downloads/inkedin-thumbnail-removebg-preview.png');
+  background-size: contain;
+  width: 3vw;
+  height: 3vw;
+  color: rgb(216, 216, 216);
+  
 }

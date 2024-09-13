@@ -26,6 +26,7 @@
     left: 100%;
     transition: left 0s;
     font-family: "Bebas Neue", sans-serif;
+    color: white;
   }
 
   .aboutTitle-for-animation {
@@ -38,6 +39,7 @@
     padding-left: 3vw;
     font-size: 2vw;
     line-height: 4vw;
+    color: white;
   }
 
 .flex-container {
