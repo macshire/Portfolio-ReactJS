@@ -15,10 +15,10 @@ const Home = () => {
       <div id="home">
         <div id="titleBackground">
           <div id="titleName">
-            <p>Maximilian Macshire Lionel</p>
+            <p>「✦ Maximilian Macshire Lionel ✦」</p>
           </div>
           <div id="titleWords">
-            <p>welcome to my website :)</p>
+            <p>👉 welcome to my website 👈</p>
           </div>
         </div>
           <div className='flex-container'>

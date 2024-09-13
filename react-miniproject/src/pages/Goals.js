@@ -12,7 +12,7 @@ const Goals = () => {
         <script defer src='activePage.js'></script>
       </head> 
         <div id="goalsBackground">
-          <div id="titleName">
+          <div id="titlename">
             <p>Goals</p>
           </div>
           <div id="titleWords">
