@@ -14,7 +14,7 @@ const Layout = () => {
                   <Link to="/projects">Projects</Link>
                   <Link to="/goals">Goals</Link>
                   {/* <div id='linkedinLogo'></div> */}
-                  <LinkedInIcon
+                  <LinkedInIcon 
                     // color='success'
                     style={{
                       color: 'white'

@@ -21,6 +21,7 @@ const Home = () => {
             <p>👉 welcome to my website 👈</p>
           </div>
         </div>
+        <h1 className='Heading'>WHO I AM</h1>
           <div className='flex-container'>
             <div id="avatar"></div>
             <div id="desciption" className={homeStyle.red}>
@@ -37,6 +38,16 @@ const Home = () => {
               I know are C#, JavaScript and Python.
             </div>
             <div id='avatar2'></div>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <h1 className='Heading'>WHAT I KNOW</h1>
+          <br></br>
+          <br></br>
+          <div className="flex-container">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ599EeQesSEW0pWStIaIQUEQs2P0D7I12RW-LnCPbbtOtkKNpBiIDkBzwq4Et1aQoU4ts&usqp=CAU'></img>
           </div>
       </div>
       </>

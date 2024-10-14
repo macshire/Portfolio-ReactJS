@@ -96,7 +96,7 @@
 /* short paragraph */
 #desciption {
   position: absolute;
-  font-size: 2vw;
+  font-size: 3vw;
   margin-left: 48vw;
   margin-top: 0vw;
   color: rgb(216, 216, 216);
@@ -168,7 +168,7 @@ a:is(:link, :active, :visited){
 
 #desciption2 {
   position: absolute;
-  font-size: 2vw;
+  font-size: 3vw;
   margin-left: 3vw;
   margin-top: 0vw;
   color: rgb(216, 216, 216);
@@ -223,5 +223,15 @@ body {
   width: 3vw;
   height: 3vw;
   color: rgb(216, 216, 216);
-  
+}
+
+.Heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4vw;
+  color: rgb(216, 216, 216);
+  margin-left: 3vw;
+}
+
+img {
+  background-color: none; /* Make sure there's no background */
 }
