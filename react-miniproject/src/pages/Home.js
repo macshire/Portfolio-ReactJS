@@ -38,15 +38,6 @@ const Home = () => {
             </div>
             <div id='avatar2'></div>
           </div>
-          <div className='flex-container'>
-            <div id="avatar3"></div>
-            <div id='desciption'>
-              I've come to Vietnam to learn more<br /><br />
-              about the culture, experience the overseas<br /><br />
-              work life and develop my knowledge in <br /><br />
-              coding and professionalism further.
-            </div>
-          </div>
       </div>
       </>
     )

@@ -60,7 +60,7 @@
   background-position: center center;
   position: relative;
   /* black tint to background */
-  background-color: rgba(59, 54, 48, 0.747);
+  background-color: rgba(59, 54, 48, 0.781);
   background-blend-mode: multiply;
 }
 
@@ -100,7 +100,7 @@
   margin-left: 48vw;
   margin-top: 0vw;
   color: rgb(216, 216, 216);
-  font-family: 'Cinzel', serif;
+  font-family: 'Bebas Neue', sans-serif;
   white-space: nowrap;
 }
 
@@ -115,7 +115,7 @@
 li a:is(:link, :active, :visited) {
   /* have the image float toward the left */
   float: left;
-  color: rgb(159, 128, 196);
+  color: rgb(176, 157, 199);
   text-align: center;
   padding: 1vw 2vw;
   /* remove underlines */
@@ -172,7 +172,7 @@ a:is(:link, :active, :visited){
   margin-left: 3vw;
   margin-top: 0vw;
   color: rgb(216, 216, 216);
-  font-family: 'Cinzel', serif;
+  font-family: 'Bebas Neue', sans-serif;
   white-space: nowrap;
 }
 
@@ -194,7 +194,7 @@ a:is(:link, :active, :visited){
 }
 
 body {
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(63, 56, 66);
 }
 
 /* profile picture image top left */
