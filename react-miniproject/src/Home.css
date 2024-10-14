@@ -39,16 +39,33 @@
 
 }
 
+/* ref */
+
+.first-color { 
+	background: #dbd8e3; 
+}
+	
+.second-color { 
+	background: #5c5470; 
+}
+
+.third-color { 
+	background: #352f44; 
+}
+
+.fourth-color { 
+	background: #2a2438; 
+}
+
 /* profile picture image */
 #avatar {
   background-image: url('https://media.licdn.com/dms/image/v2/D5603AQGeO3YQqKB3qQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673597707200?e=2147483647&v=beta&t=sh_InJkdqhLw0R5cpjcE-mJugMDxI4nWD_aNbB1mEZ0');
   background-size: cover;
-  width: 40vw;
-  height: 40vw;
+  width: 30vw;
+  height: 30vw;
   display: block;
   border-radius: 50%;
   margin-left: 4vw;
-  margin-top: 3vw;
 }
 
 /* background blender image */
@@ -72,7 +89,7 @@
   padding: 0;
   top: 40%;
   left: 50%;
-  color: rgb(132, 250, 222);
+  color: rgb(255, 255, 255);
   transform: translate(-50%, -50%);
   /* keep font consistent */
   font-family: 'Bebas Neue', sans-serif;
@@ -87,7 +104,7 @@
   padding: 0;
   top: 65%;
   left: 50%;
-  color: rgb(255, 255, 255);
+  color: rgb(201, 201, 201);
   transform: translate(-50%, -50%);
   font-family: "Bebas Neue", sans-serif;
   white-space: nowrap;
@@ -97,9 +114,9 @@
 #desciption {
   position: absolute;
   font-size: 3vw;
-  margin-left: 48vw;
+  margin-left: 44vw;
   margin-top: 0vw;
-  color: rgb(216, 216, 216);
+  color: #dbd8e3;
   font-family: 'Bebas Neue', sans-serif;
   white-space: nowrap;
 }
@@ -115,7 +132,7 @@
 li a:is(:link, :active, :visited) {
   /* have the image float toward the left */
   float: left;
-  color: rgb(176, 157, 199);
+  color: #dbd8e3;
   text-align: center;
   padding: 1vw 2vw;
   /* remove underlines */
@@ -130,14 +147,14 @@ li a:is(:link, :active, :visited) {
 /* changes color of box if hovering */
 li a:hover{
   background-color: #2b2b2b91;
-  color: rgb(244, 224, 247);
+  color: #5c5470;
 }
 
 /* changes color of box if active */
-a:is(:link, :active, :visited){
+/* a:is(:link, :active, :visited){
   background-color: rgba(138, 114, 82, 0);
   color: white;
-}
+} */
 
 .tabContent {
   display: none;
@@ -155,15 +172,15 @@ a:is(:link, :active, :visited){
   width: 20vw;
 }
 
-#avatar2 {
+/* #avatar2 {
   background-image: url('https://oa.tp.libnova.com/templates/temasek/assets/img/slider_2.webp');
   background-size: cover;
-  width: 40vw;
-  height: 40vw;
+  width: 30vw;
+  height: 30vw;
   display: block;
   border-radius: 50%;
-  margin-left: 55vw;
-  margin-top: 3vw;
+  margin-left: 62vw;
+  margin-top: 5vw;
 }
 
 #desciption2 {
@@ -174,7 +191,7 @@ a:is(:link, :active, :visited){
   color: rgb(216, 216, 216);
   font-family: 'Bebas Neue', sans-serif;
   white-space: nowrap;
-}
+} */
 
 .flex-container {
   display: flex;
@@ -194,7 +211,7 @@ a:is(:link, :active, :visited){
 }
 
 body {
-  background-color: rgb(63, 56, 66);
+  background-color: #2a2438;
 }
 
 /* profile picture image top left */
@@ -228,10 +245,60 @@ body {
 .Heading {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4vw;
-  color: rgb(216, 216, 216);
-  margin-left: 3vw;
+  color: #dbd8e3;
+  align-self: center;
+  left: 50%;
+  text-align: center;
+  text-decoration: underline;
 }
 
 img {
   background-color: none; /* Make sure there's no background */
+}
+
+.codeLogos {
+  width: 10vw;
+  height: 10vw;
+  margin: 1.5vw;
+}
+
+.flex-container-logos {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logoContainer {
+  width: 13vw;
+  height: 20vw;
+  color: white;
+  border: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 0.4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 4%;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+  /* center content */
+  display: flex; 
+  /* stack image and text vertically */
+  flex-direction: column; 
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.logoContainer:hover {
+  transform: scale(1.1);
+  background-color: #413a53;
+}
+
+.Heading2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2vw;
+  color: rgb(216, 216, 216);
+  text-align: center; /* Center text */
+  margin-top: 1vw; /* Adds some space between the image and text */
 }

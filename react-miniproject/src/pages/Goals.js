@@ -22,7 +22,7 @@ const Goals = () => {
         <div id='goalBox'></div>
         <div id='goalTextBox'>
         <div className="flex-container">
-          <div id='goalText'>EEEEEEEEEEEEEEEEEEEEEEEEEEEEEJJJJJJJJJJ</div>
+          <div id='goalText'>FODDER PAGE IGNORE LMAO</div>
         </div>
         </div>
     </>
