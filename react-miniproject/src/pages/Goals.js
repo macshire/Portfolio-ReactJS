@@ -13,18 +13,18 @@ const Goals = () => {
       </head> 
         <div id="goalsBackground">
           <div id="titlename">
-            <p>Goals</p>
+            <p>PRACTICE PAGE</p>
           </div>
           <div id="titleWords">
-            <p>Why I am here</p>
+            <p>practice stuff here</p>
           </div>
         </div>
-        <div id='goalBox'></div>
+        {/* <div id='goalBox'></div>
         <div id='goalTextBox'>
         <div className="flex-container">
-          <div id='goalText'>FODDER PAGE IGNORE LMAO</div>
+          
         </div>
-        </div>
+        </div> */}
     </>
     )
 };
